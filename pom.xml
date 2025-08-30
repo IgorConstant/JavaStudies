@@ -56,8 +56,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>br.com.igor.lotr_api.LotrApiApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
